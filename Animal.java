@@ -1,6 +1,6 @@
 /*
  * Class defines the animal
- * Zhao Li is having fun here. ^_^O(กษ_กษ)O
+ * 
  */
 public class Animal {
 
