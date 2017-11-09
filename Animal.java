@@ -1,6 +1,6 @@
 /*
  * Class defines the animal
- * Zhao Li is having fun here. ^_^O(°…_°…)O
+ * Zhao Li is having fun here. ^_^O(ÔøΩÔøΩ_ÔøΩÔøΩ)O
  */
 public class Animal {
 
@@ -8,8 +8,8 @@ public class Animal {
 	private int age;
 	private int weight;
 	private int height;
-	private String country; 
-	
+	private String country;
+
 	/*
 	 * Constructor of the class
 	 * @param name name of the animal
@@ -20,18 +20,21 @@ public class Animal {
 	 * @param country country of origin
 	 */
 	public Animal(String name, int age, int weight, int height, String country) {
-		System.out.println(‚ÄúHello‚Äù);
+		this.name = name;
+		this.age = age;
+		this.weight = weight;
+		this.height = height;
+		this.country = country;
 	}
-	
+
 	/**
 	 * Getter for the animal name
 	 * @return name of the animal
 	 */
 	public String getName() {
-		// TODO complete the method
-		return null;
+		return name;
 	}
-	
+
 	/**
 	 * Setter for the animal name
 	 * @param name name of the animal
@@ -76,6 +79,6 @@ public class Animal {
 	public void setCountry(String country) {
 		// TODO complete the method, add javadoc comments
 	}
-	
-	
+
+
 }
